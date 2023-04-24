@@ -1,6 +1,6 @@
 /* Headings */
 
-h2 {
+h3 {
 
     text-align: center;
    
@@ -11,88 +11,14 @@ h2 {
     border-bottom: 5px solid red;
    
     display: inline-block;
-   
-   }
-   
+}
    
    
    
-   /* Navigation */
-   
-   .menu {
+/* Todo: Lag en style for header */
 
-    background-color: #999;
-   
-    list-style-type: none;
-   
-    margin: 0;
-   
-    padding: 0;
-   
-    background-color: transparent;
-   
-    overflow: hidden;
-   
-    text-align: center;
-   
-   }
-   
-   
-   
-   
-   .menu li {
-   
-    display: inline-block;
-   
-   }
-   
-   
-   
-   
-   .menu li a {
-   
-    display: block;
-   
-    color: #666;
-   
-    text-align: center;
-   
-    padding: 15px 30px;
-   
-    text-decoration: none;
-   
-    border-radius: 50px;
-   
-    transition: all 0.3s;
-   
-    border: 2px solid #666;
-   
-    background-color: transparent;
-   
-   }
-   
-   
-   
-   
-   .menu li a:hover {
-   
-    background-color: #666;
-   
-    border-radius: 50px;
-   
-    padding: 20px 35px;
-   
-    border: 2px solid #666;
-   
-    color: #fff;
-   
-   }
-   
-   
-   
-   
-   .active {
-   
-    background-color: #4CAF50;
-   
-   }
+/* Todo: Lag en style for footer */
+
+/* Todo: Få div class logo til å holde seg på venstreside */
+/* Todo: Få div class top-buttons til å holde seg på høyreside */
+/* Husk at når du ksal lage en style til div class må du skrive . også navnet på hva div class er. Du kan også google "html how to style a div" */

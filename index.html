@@ -1,41 +1,53 @@
-<!DOCTYPE html>
-
 <html>
 
-  <head>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-    <title>CSS Layouts</title>
+</head>
 
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-
-  </head>
-
-  <body>
-
-<!-- TODO: Lag en egen header-meny for aa bygge inn navigasjonslinker på hver side --->
-    <ul class="menu">
-
-      <li><a href="#">Home</a></li>
-
-      <li><a href="About.html">About</a></li>
-
-      <li><a href="Contact.html">Contact</a></li>
-
-      <li><a href="Links.html">Links</a></li>
-
-    </ul>
-
-    <div class="content">
-
-      <h1>My Website!</h1>
-
-      <p>Halloi</p>
-      <p>Se på denne kule videoen</p>
-      <p>Dette er en endring!</p>
+<body>
+  <div class="header">
+    <div class="top">
+      <div class="logo">logo</div>
+      <div class="top-buttons">
+        <div class="top-button">Button 1</div>
+        <div class="top-button">Button 2</div>
+      </div>
     </div>
-
-    <!-- TODO: Lag en egen footer-meny for aa bygge inn navigasjonslinker på hver side --->
-
-  </body>
+    <div class="nav-menu">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="links.html">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <div class="content">
+      <h1>Dette er overskriften</h1>
+      <p>Dette er tekst om meg fyll på snere.</p>
+      <img src="./public/images/Profil.jpg">
+    </div>
+  </div>
+  <div class="footer">
+    <div class="quick-links">
+      <h3>Quick Links</h3>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="links.html">Projects</a></li>
+      </ul>
+    </div>
+    <div class="button-module">
+      <h3>Contact Us</h3>
+      <p>Join our discord server where we are happy to help you.</p>
+      <button onclick="window.location.href='https://discord.com';" target="_blank">Join</button>
+    </div>
+  </div>
+</body>
 
 </html>
