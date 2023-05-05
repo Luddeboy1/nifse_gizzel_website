@@ -12,13 +12,84 @@ h3 {
    
     display: inline-block;
 }
-   
-   
-   
+
+/* banner/Logo */
+
+.banner {
+    text-align: center;
+    padding: 15px
+}
+
+/*top buttons*/
+
+.top-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    padding: 15px 20px;
+    background-color: #7289DA;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .top-buttons a:first-child {
+    margin-left: 0;
+  }
+  
+  .top-buttons a:hover {
+    background-color: #677BC4;
+  }  
+
+/* Navigation*/
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 250px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  color: blue;
+  font-size: 18px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20px;
+}
+
 /* Todo: Lag en style for header */
 
 /* Todo: Lag en style for footer */
-
+ 
 /* Todo: Få div class logo til å holde seg på venstreside */
 /* Todo: Få div class top-buttons til å holde seg på høyreside */
 /* Husk at når du ksal lage en style til div class må du skrive . også navnet på hva div class er. Du kan også google "html how to style a div" */
