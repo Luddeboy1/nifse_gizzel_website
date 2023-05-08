@@ -3,34 +3,26 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-
+  <script src="./test/components/header.js" type="text/javascript" defer></script>
 </head>
 
 <body>
+  <header-component></header-component>
   <div class="header">
     <div class="top">
       <div class="Banner"><img src="./public/images/Static.gif"></div>
       <div class="top-buttons">
         <div class="top-button">
           <a href="https://discord.gg/zP7etczaGK" target="_blank">
-            Join Our Discord Server
+            Discord Server
           </a>
         </div>
         <div class="top-button">
-          <li><a href="links.html" target="_blank">All the Links</a></li>
+          <a href="links.html" target="_blank">Links</a>
           </a>
         </div>
       </div>      
-    <div class="nav-menu">
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="links.html">Links</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="rules.html">Rules</a></li>
-      </ul>
-    </div>
+
   </div>
   <div class="main">
     <div class="content">
@@ -40,20 +32,20 @@
     </div>
   </div>
   <div class="footer">
-    <div class="quick-links">
+    <div class="button-module">
+      <h3>Contact Us</h3>
+      <p>Join our discord server where we are happy to help you.</p> 
+      <a class="footer-contact-button" href="https://discord.gg/zP7etczaGK" target="_blank">Contact Us</a>
+    </div>
+        <div class="quick-links">
       <h3>Quick Links</h3>
-      <ul class="menu">
+      <ul class="footer-links">
         <li><a href="#">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="links.html">Links</a></li>
         <li><a href="links.html">Projects</a></li>
       </ul>
-    </div>
-    <div class="button-module">
-      <h3>Contact Us</h3>
-      <p>Join our discord server where we are happy to help you.</p>
-      <button onclick="window.open('https://discord.gg/zP7etczaGK', '_blank')">Join</button>
     </div>
   </div>
 </body>
