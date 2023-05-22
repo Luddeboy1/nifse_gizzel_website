@@ -55,108 +55,83 @@ h3 {
   background-color: #677BC4;
 }
 
-/* Navigation*/
-
-.nav {
-  position: relative;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.nav::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  background: #fff;
-  z-index: 1; 
-}
-.active{
-  background: rgb(177, 177, 177);
-}
-.nav::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  background: rgb(0, 0, 0);
-  z-index: 1; 
-}
-.nav::before {
-  left: 0;
-  border-radius: 0 0 0 50%;
-}
-.nav::after {
-  right: 0;
-  border-radius: 0 0 50% 0;
-}
-.nav-item {
-  position: relative;
-  float: left;
-  width: 16.66667%;
-}
-.nav-item a {
-  display: block;
-  padding: 10px 20px;
-  border: 1px solid #ccc;
-  text-decoration: none;
-  color: #333;
-  position: relative;
-  z-index: 2;
+/*navigation */
+.content {
+  text-align: center;
+  margin-top: 0;
 }
 
 .nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #999;
-  color: black;
-  padding: 10px 20px;
-}
-
-.menu {
-  display: flex;
   list-style: none;
-}
-
-.menu li {
-  margin-right: 250px;
-}
-
-.menu a {
-  color: black;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.menu a:hover {
-  color: blue;
-  font-size: 18px;
-  border: 2px solid black;
-  padding: 5px;
-  border-radius: 20px;
-}
-
-/* Footer*/
-
-.footer {
-  background-color: #222;
-}
-
-.footer p {
-  color: #fff;
-}
-
-.footer-contact-button {
-  display: block;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  font-weight: 700;
-  font-size: 20px;
-  padding: 16px 0;
+  background-color: #24262b;
+  position: sticky;
+  top: 10px;
+  width: 100%;
 }
 
+.nav-item {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-item>a {
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.dropdown-toggle:after {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 118%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f8f8f8;
+
+  width: 100%;
+  /* Add the following properties */
+  margin-top: -10px;
+  padding-top: 10px;
+}
+
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* Set the width to 100% */
+}
+
+.dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu a {
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+/* Additional styles for the dropdown menus */
+.nav-item.dropdown.show .dropdown-menu {
+  display: block;
+}
 
 /* Todo: Lag en style for header */
 
