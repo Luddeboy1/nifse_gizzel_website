@@ -6,7 +6,7 @@ h3 {
 
   text-align: center;
 
-  color: #fff;
+  color: black;
 
   text-decoration: none;
 
@@ -99,7 +99,6 @@ h3 {
   background-color: #f8f8f8;
 
   width: 100%;
-  /* Add the following properties */
   margin-top: -10px;
   padding-top: 10px;
 }
@@ -110,7 +109,6 @@ h3 {
   padding: 0;
   margin: 0;
   width: 100%;
-  /* Set the width to 100% */
 }
 
 .dropdown-menu li {
@@ -128,7 +126,6 @@ h3 {
   display: block;
 }
 
-/* Additional styles for the dropdown menus */
 .nav-item.dropdown.show .dropdown-menu {
   display: block;
 }

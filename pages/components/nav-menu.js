@@ -5,7 +5,7 @@ class Navigation extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <header>
+      <header>s
         <nav>
           <ul class="nav-menu">
             <li class="nav-item dropdown">
